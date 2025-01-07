@@ -8,9 +8,8 @@ import { Person } from "./components/Person"
 export function App() {
    return (
     <>
-      <div className="flex justify-center h-screen w-screen gap-20">
+      <div className="flex items-center justify-center h-screen">
         <Apresentacao />
-        <Person />
       </div>
     </>
   )
