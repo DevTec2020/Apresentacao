@@ -1,17 +1,16 @@
 import "./App.module.css"
-import { useState } from "react"
 
 import { Apresentacao } from "./components/Apresentacao" 
+import { Person } from "./components/Person"
 
 
 
 export function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+   return (
     <>
-      <div>
+      <div className="flex justify-center h-screen w-screen gap-20">
         <Apresentacao />
+        <Person />
       </div>
     </>
   )

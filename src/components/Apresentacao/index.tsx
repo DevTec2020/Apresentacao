@@ -1,7 +1,13 @@
+import Git from "../../assets/Git.svg"
+import Instagram from "../../assets/Instagram.svg"
+import Linkedin from "../../assets/Linkedin.svg"
+import Whatsapp from "../../assets/Whatsapp.svg"
+
+
 export function Apresentacao(){
     return (
 
-        <div className="text-white w-1/3">
+        <div className="flex flex-col justify-center text-white w-1/3">
             <div>
                 <h1 className="text-5xl">Oi, meu nome é <br />Leonardo Batista</h1>
             </div>
@@ -17,13 +23,8 @@ export function Apresentacao(){
                 Nemo architecto eum quasi dignissimos consectetur quia possimus tempore expedita aliquam ipsam obcaecati accusamus et, quam reiciendis minima placeat eius.
             </div>
 
-            <div className="mt-5">
-                <button type="button">GIT</button>
-                <button type="button">Instagram</button>
-                <button type="button">Linkedin</button>
-                <button type="button">Whatsapp</button>
-            </div>
 
+            
         </div>
     )
 }
