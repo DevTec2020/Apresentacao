@@ -10,10 +10,11 @@ import ICOnode from "../../assets/Skills-ico/node.png"
 import ICOexpress from "../../assets/Skills-ico/express.png"
 import ICOBabel from "../../assets/Skills-ico/babel.png"
 import ICOWebpack from "../../assets/Skills-ico/webpack.png"
-import ICOsql from "../../assets/Skills-ico/sql.png"
-import ICOpostgresql from "../../assets/Skills-ico/postgresql.png"
-import ICOfirebird from "../../assets/Skills-ico/firebird.png"
+import ICOSql from "../../assets/Skills-ico/sql.png"
+import ICOPostgresql from "../../assets/Skills-ico/postgresql.png"
+import ICOFirebird from "../../assets/Skills-ico/firebird.png"
 import ICOSass from "../../assets/Skills-ico/sass.png"
+import ICOFigma from "../../assets/Skills-ico/figma.png"
 
 
 
@@ -58,9 +59,10 @@ export function Habilidades() {
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOBabel} alt="React ico" txt="Babel" />
                             <Skill src={ICOWebpack} alt="CSS ico" txt="Webpack" />
-                            <Skill src={ICOsql} alt="Bootstrap ico" txt="SQL" />
-                            <Skill src={ICOpostgresql} alt="Bulma ico" txt="PostgreSQL"/>
-                            <Skill src={ICOfirebird} alt="Tailwind ico" txt="Firebird" />
+                            <Skill src={ICOSql} alt="Bootstrap ico" txt="SQL" />
+                            <Skill src={ICOPostgresql} alt="Bulma ico" txt="PostgreSQL"/>
+                            <Skill src={ICOFirebird} alt="Tailwind ico" txt="Firebird" />
+                            <Skill src={ICOFigma} alt="Figma ico" txt="Figma" />
                         </div>
                     </div>
 
