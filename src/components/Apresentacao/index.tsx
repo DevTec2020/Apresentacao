@@ -28,7 +28,7 @@ export function Apresentacao(){
 
 
     return (
-        <div className="flex flex-col min-h-screen text-white bg-red-950">
+        <div className="flex flex-col min-h-screen text-white bg-gray-950">
             <div className="flex-grow flex flex-col items-center justify-center">
                 <div>
                     <h1 className="text-5xl">Olá, sou Leonardo Batista</h1>
