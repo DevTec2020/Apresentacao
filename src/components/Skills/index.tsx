@@ -1,11 +1,15 @@
 type Props = React.ComponentProps<"button"> & {
-    src: string
+    src?: string
     alt: string
+    txt: string
 }
 
 
-export function Skill({src, alt}: Props) {
+export function Skill({src, alt, txt}: Props) {
     return (
-        <img className="h-10" src={src} alt={alt} />
+        <div className="flex items-center justify-center border rounded-lg p-3">
+            <img className="h-6 w-6 mr-2" src={src} alt={alt} />
+            <span>{txt}</span>
+        </div>
      )
 }
