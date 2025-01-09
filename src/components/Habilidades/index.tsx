@@ -7,6 +7,16 @@ import ICOjs from "../../assets/Skills-ico/js.png"
 import ICOreact from "../../assets/Skills-ico/react.png"
 import ICOtypescript from "../../assets/Skills-ico/ty.png"
 import ICOnode from "../../assets/Skills-ico/node.png"
+import ICOexpress from "../../assets/Skills-ico/express.png"
+import ICOBabel from "../../assets/Skills-ico/babel.png"
+import ICOWebpack from "../../assets/Skills-ico/webpack.png"
+import ICOsql from "../../assets/Skills-ico/sql.png"
+import ICOpostgresql from "../../assets/Skills-ico/postgresql.png"
+import ICOfirebird from "../../assets/Skills-ico/firebird.png"
+
+
+
+
 
 
 
@@ -15,15 +25,15 @@ import { Skill } from "../Skills"
 
 export function Habilidades() {
     return (
-        <div className="min-h-screen w-full text-white bg-red-900 p-10">
+        <div className="min-h-screen w-full text-white bg-blue-950 p-10">
                 <div>
                     <h1 className="font-semibold text-4xl text-center">Habilidades</h1>
                 </div>
                 
 
-                <div className="flex flex-wrap justify-center mt-20 gap-20">
+                <div className="flex flex-wrap justify-center mt-20 gap-20 text-slate-400">
                 
-                    <div className=" w-1/4 border rounded-lg p-5 flex flex-col items-center">
+                    <div className=" w-1/4 border border-indigo-600 rounded-lg p-5 flex flex-col items-center shadow-2xl bg-indigo-950">
                         <h2 className="text-2xl font-semibold text-center mb-4">Frontend</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOreact} alt="React ico" txt="React" />
@@ -37,24 +47,23 @@ export function Habilidades() {
                         </div>
                     </div>
 
-                    <div className=" w-1/4 border rounded-lg p-5 flex flex-col items-center">
+                    <div className=" w-1/4 border border-indigo-600 rounded-lg p-5 flex flex-col items-center shadow-2xl bg-indigo-950">
                         <h2 className="text-2xl font-semibold text-center mb-4">Backend</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOnode} alt="Node ico" txt="Node" />
-                            <Skill src={ICOhtml} alt="HTML ico" txt="Express" />
+                            <Skill src={ICOexpress} alt="HTML ico" txt="Express" />
                         </div>
                     </div>
 
                     
-                    <div className=" w-2/4 border rounded-lg p-5 flex flex-col items-center">
+                    <div className=" w-2/4 border border-indigo-600 rounded-lg p-5 flex flex-col items-center shadow-2xl bg-indigo-950">
                         <h2 className="text-2xl font-semibold text-center mb-4">Outros</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
-                            <Skill src={ICOreact} alt="React ico" txt="Babel" />
-                            <Skill src={ICOhtml} alt="HTML ico" txt="NPM" />
-                            <Skill src={ICOcss} alt="CSS ico" txt="Webpack" />
-                            <Skill src={ICObootstrap} alt="Bootstrap ico" txt="SQL" />
-                            <Skill src={ICOBulma} alt="Bulma ico" txt="PostgreSQL"/>
-                            <Skill src={ICOtailwind} alt="Tailwind ico" txt="Firebird" />
+                            <Skill src={ICOBabel} alt="React ico" txt="Babel" />
+                            <Skill src={ICOWebpack} alt="CSS ico" txt="Webpack" />
+                            <Skill src={ICOsql} alt="Bootstrap ico" txt="SQL" />
+                            <Skill src={ICOpostgresql} alt="Bulma ico" txt="PostgreSQL"/>
+                            <Skill src={ICOfirebird} alt="Tailwind ico" txt="Firebird" />
                         </div>
                     </div>
 
