@@ -16,16 +16,19 @@ O objetivo é montar uma página de apresentação pessoal desenvolvida com **Re
 
 ## Como Executar o Projeto
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/DevTec2020/Apresentacao.git
    ```
 
-   2. Instale as dependências::
+3. Instale as dependências::
+
    ```bash
    npm install
    ```
   
-   3. Inicie o servidor de desenvolvimento:
+4. Inicie o servidor de desenvolvimento:
+
    ```bash
    npm run dev
    ```
