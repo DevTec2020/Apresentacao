@@ -22,15 +22,15 @@ import { Skill } from "../Skills"
 
 export function Habilidades() {
     return (
-        <div className="min-h-screen w-full text-white bg-gray-900 p-10">
+        <div className="min-h-screen w-full text-white bg-gray-900">
                 <div>
                     <h1 className="font-semibold text-4xl text-center text-orange-500">Habilidades</h1>
                 </div>
                 
 
-                <div className="flex flex-wrap justify-center mt-20 gap-20 text-slate-400">
+                <div className="flex flex-wrap justify-center mt-20 gap-20 text-slate-400 px-6 sm:px-20">
                 
-                    <div className=" w-1/4 p-5 flex flex-col items-center  border border-gray-700 rounded-lg shadow-lg">
+                    <div className=" w-1/4 p-5 flex flex-col flex-grow items-center  border border-gray-700 rounded-lg shadow-lg">
                         <h2 className="text-2xl font-semibold text-center mb-4">Frontend</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOreact} alt="React ico" txt="React" />
@@ -45,7 +45,7 @@ export function Habilidades() {
                         </div>
                     </div>
 
-                    <div className=" w-1/4 p-5 flex flex-col items-center  border border-gray-700 rounded-lg shadow-lg">
+                    <div className=" w-1/4 p-5 flex flex-col flex-grow items-center  border border-gray-700 rounded-lg shadow-lg">
                         <h2 className="text-2xl font-semibold text-center mb-4">Backend</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOnode} alt="Node ico" txt="Node" />
