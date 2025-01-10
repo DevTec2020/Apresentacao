@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 import Git from "../../assets/Git.svg"
-import Instagram from "../../assets/Instagram.svg"
+import Email from "../../assets/Email.svg"
 import Linkedin from "../../assets/Linkedin.svg"
 import Whatsapp from "../../assets/Whatsapp.svg"
 
@@ -51,7 +51,7 @@ export function Apresentacao(){
 
                 <div className="mt-10 flex gap-4">
                     <ButtonRedes src={Git} alt="Git Ico" href="https://github.com/DevTec2020"/>
-                    <ButtonRedes src={Instagram} alt="Instagram Ico" href="https://www.instagram.com/ls_batista/"/>
+                    <ButtonRedes src={Email} alt="Email Ico" href="mailto:leonardo.silva.inf@gmail.com"/>
                     <ButtonRedes src={Linkedin} alt="Linkedin Ico" href="https://www.linkedin.com/in/devtec-leobatista/"/>
                     <ButtonRedes src={Whatsapp} alt="Whatsapp Ico" href="https://wa.me/85985646542"/>
                 </div>
