@@ -28,26 +28,25 @@ export function Apresentacao(){
 
 
     return (
-        <div className="flex flex-col min-h-screen text-white bg-gray-950">
+        <div className="flex flex-col min-h-screen text-white bg-gray-950 ">
             <div className="flex-grow flex flex-col items-center justify-center">
                 <div>
-                    <h1 className="text-5xl">Olá, sou Leonardo Batista</h1>
+                    <h1 className=" text-3xl sm:text-4xl font-bold mb-4 text-center px-14">Olá, sou Leonardo Batista</h1>
                 </div>
 
-                <div className="mt-5 text-xl">
+                <div className="mt-5 text-xl md:text-2xl">
                     <h2>
                         Desenvolvedor <span className="text-orange-500">{text}</span> Voluntário
                     </h2>
                 </div>
 
-                <div className="mt-3 w-2/4 text-center text-lg">
+                <div className="mt-3 w-2/4 text-center md:text-2xl">
                     Cearense apaixonado por tecnologia e descobrir como esse mundo funciona.
                     Tenho experiência em suporte de TI, e acredito que minha dedicação e foco no
                     cliente podem fazer a diferença em qualquer projeto. Participo de eventos e
                     comunidades de tecnologia pois sei a importância de me manter atualizado sobre o
                     mercado e as ferramentas mais recentes. Trabalho diariamente com metodologias
-                    como Kanban e Scrum, o que me ajuda a colaborar de forma eficiente em equipe
-                    e garantir entregas de valor.
+                    como Kanban e Scrum.
                 </div>
 
                 <div className="mt-10 flex gap-4">
