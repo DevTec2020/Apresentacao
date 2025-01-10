@@ -5,6 +5,11 @@ import CadMetas from "../../assets/Projetos/CadMetas.jpg"
 import FormNasa from "../../assets/Projetos/FormNasa.jpg"
 import JogoForca from "../../assets/Projetos/JogoForca.jpg"
 
+import {ProjetosStack} from "./ProjetosStack"
+import {ProjetosUrl} from "./ProjetosUrl"
+import {ProjetosDesc} from "./ProjetosDesc"
+
+
 
 
 export function Projetos() {
@@ -26,24 +31,16 @@ export function Projetos() {
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">SiteNote</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">CSS</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Javascript</span>
+                            <ProjetosStack stack="HTML" />
+                            <ProjetosStack stack="CSS" />
+                            <ProjetosStack stack="Javascript" />
                         </div>
-  
-                        <p className="mb-3 font-normal text-gray-400">
-                            Aplicação web projetada para ajudar a criar, editar, deletar notas e listas de tarefas de forma eficiente e intuitiva. 
-                        </p>
-                        <div className="flex  gap-2">
-                            <a href="https://devtec2020.github.io/SiteNotes/" target="_blank" 
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                              APP
-                            </a>
 
-                            <a href="https://github.com/DevTec2020/SiteNotes" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                CODE
-                            </a>
+                        <ProjetosDesc txt="Aplicação web projetada para ajudar a criar, editar, deletar notas e listas de tarefas de forma eficiente e intuitiva."/>
+ 
+                        <div className="flex  gap-2">
+                            <ProjetosUrl url="https://devtec2020.github.io/SiteNotes/" txt="APP"/>
+                            <ProjetosUrl url="https://github.com/DevTec2020/SiteNotes" txt="CODE"/>
                         </div>
 
                     </div>
@@ -51,61 +48,44 @@ export function Projetos() {
 
                 {/* PetValley Card*/}
                 <div className="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow ">
-                    <a href="#">
-                        <img className="rounded-t-lg" src={PetValley} alt="Projeto SiteNote" />
-                    </a>
+                    <img className="rounded-t-lg" src={PetValley} alt="Projeto SiteNote" />
+
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">PetValley</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">CSS</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Bulma</span>
+                            <ProjetosStack stack="HTML" />
+                            <ProjetosStack stack="CSS" />
+                            <ProjetosStack stack="Bulma" />
                         </div>
-  
-                        <p className="mb-3 font-normal text-gray-400">
-                            Site para clínica veterinária, com foco em usabilidade e design responsivo. 
-                        </p>
-                        <div className="flex  gap-2">
-                            <a href="https://pet-valley.vercel.app" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                APP
-                            </a>
 
-                            <a href="https://github.com/DevTec2020/Pet-Valley" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                CODE
-                            </a>
+                        <ProjetosDesc txt="Site para clínica veterinária, com foco em usabilidade e design responsivo."/>
+ 
+                        <div className="flex  gap-2">
+                            <ProjetosUrl url="https://pet-valley.vercel.app" txt="APP"/>
+                            <ProjetosUrl url="https://github.com/DevTec2020/Pet-Valley" txt="CODE"/>
                         </div>
 
                     </div>
                 </div>
 
+
                 {/* DevBurguer Card*/}
                 <div className="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow ">
-                    <a href="#">
-                        <img className="rounded-t-lg" src={DevBurguer} alt="Projeto SiteNote" />
-                    </a>
+                    <img className="rounded-t-lg" src={DevBurguer} alt="Projeto SiteNote" />
+
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">DevBurguer</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Tailwind</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">JavaScript</span>
+                            <ProjetosStack stack="HTML" />
+                            <ProjetosStack stack="Tailwind" />
+                            <ProjetosStack stack="JavaScript" />
                         </div>
-  
-                        <p className="mb-3 font-normal text-gray-400">
-                            Cardápio Online de hamburgueria, com uma interface moderna e funcional. Permitindo que os pedidos sejam encaminhados diretamente para o WhatsApp. 
-                        </p>
-                        <div className="flex  gap-2">
-                            <a href="https://dev-burguer-jade.vercel.app" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                APP
-                            </a>
 
-                            <a href="https://github.com/DevTec2020/DevBurguer" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                CODE
-                            </a>
+                        <ProjetosDesc txt="Cardápio Online de hamburgueria, com uma interface moderna e funcional. Permitindo que os pedidos sejam encaminhados diretamente para o WhatsApp."/>
+ 
+                        <div className="flex  gap-2">
+                            <ProjetosUrl url="https://dev-burguer-jade.vercel.app" txt="APP"/>
+                            <ProjetosUrl url="https://github.com/DevTec2020/DevBurguer" txt="CODE"/>
                         </div>
 
                     </div>
@@ -114,83 +94,64 @@ export function Projetos() {
 
                 {/* CadMetas Card*/}
                 <div className="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow ">
-                    <a href="#">
-                        <img className="rounded-t-lg" src={CadMetas} alt="Projeto SiteNote" />
-                    </a>
+                    <img className="rounded-t-lg" src={CadMetas} alt="Projeto SiteNote" />
+
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">CadMetas</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">JavaScript</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">NodeJs</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Json</span>
+                            <ProjetosStack stack="JavaScript" />
+                            <ProjetosStack stack="NodeJs" />
+                            <ProjetosStack stack="Json" />
                         </div>
-  
-                        <p className="mb-3 font-normal text-gray-400">
-                            Site para clínica veterinária, com foco em usabilidade e design responsivo. 
-                        </p>
+
+                        <ProjetosDesc txt="Site para clínica veterinária, com foco em usabilidade e design responsivo."/>
+ 
                         <div className="flex  gap-2">
-                           <a href="https://github.com/DevTec2020/CadMetas" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                CODE
-                            </a>
+                            <ProjetosUrl url="https://github.com/DevTec2020/CadMetas" txt="CODE"/>
                         </div>
 
                     </div>
                 </div>
+
 
                 {/* FormNasa Card*/}
                 <div className="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow ">
-                    <a href="#">
-                        <img className="rounded-t-lg" src={FormNasa} alt="Projeto SiteNote" />
-                    </a>
+                    <img className="rounded-t-lg" src={FormNasa} alt="Projeto SiteNote" />
+
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">FormNasa</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">SASS</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Bootstrap</span>
+                            <ProjetosStack stack="HTML" />
+                            <ProjetosStack stack="SASS" />
+                            <ProjetosStack stack="Bootstrap" />
                         </div>
-  
-                        <p className="mb-3 font-normal text-gray-400">
-                            Formulário minimalista, estilizado com o Bootstrap, focado na simplicidade e eficiência.. 
-                        </p>
-                        <div className="flex  gap-2">
-                            <a href="https://devtec2020.github.io/FormNasa/" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                APP
-                            </a>
 
-                            <a href="https://github.com/DevTec2020/FormNasa" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                CODE
-                            </a>
+                        <ProjetosDesc txt="Formulário minimalista, estilizado com o Bootstrap, focado na simplicidade e eficiência."/>
+ 
+                        <div className="flex  gap-2">
+                            <ProjetosUrl url="https://devtec2020.github.io/FormNasa/" txt="APP"/>
+                            <ProjetosUrl url="https://github.com/DevTec2020/FormNasa" txt="CODE"/>
                         </div>
 
                     </div>
                 </div>
 
-
                 {/* JogoForca Card*/}
                 <div className="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow ">
-                    <a href="#">
-                        <img className="rounded-t-lg" src={JogoForca} alt="Projeto SiteNote" />
-                    </a>
+                    <img className="rounded-t-lg" src={JogoForca} alt="Projeto SiteNote" />
+
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Jogo da Forca</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">JogoForca</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">React</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">CSS</span>
-                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Typescript</span>
+                            <ProjetosStack stack="React" />
+                            <ProjetosStack stack="CSS" />
+                            <ProjetosStack stack="Typescript" />
                         </div>
-  
-                        <p className="mb-3 font-normal text-gray-400">
-                            Jogo da Forca com palavras de programação. 
-                        </p>
+
+                        <ProjetosDesc txt="Jogo da Forca com palavras de programação."/>
+ 
                         <div className="flex  gap-2">
-                            <a href="https://github.com/DevTec2020/JogoDaForca" target="_blank"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-gray-600 hover:bg-gray-700 focus:ring-gray-800">
-                                CODE
-                            </a>
+                            <ProjetosUrl url="https://github.com/DevTec2020/JogoForca" txt="CODE"/>
                         </div>
 
                     </div>
