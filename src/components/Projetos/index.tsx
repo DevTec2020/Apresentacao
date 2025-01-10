@@ -9,7 +9,7 @@ import JogoForca from "../../assets/Projetos/JogoForca.jpg"
 
 export function Projetos() {
     return (
-        <div className="min-h-screen w-full p-10">
+        <div className="min-h-screen w-full p-10 bg-gray-950">
             <div>
                 <h1 className="font-semibold text-4xl text-center text-orange-500">Projetos</h1>
             </div>

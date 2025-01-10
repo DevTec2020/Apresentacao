@@ -22,9 +22,9 @@ import { Skill } from "../Skills"
 
 export function Habilidades() {
     return (
-        <div className="min-h-screen w-full text-white bg-gray-900">
+        <div className="min-h-screen w-full text-white bg-gray-900 p-10">
                 <div>
-                    <h1 className="font-semibold text-4xl text-center text-orange-500">Habilidades</h1>
+                    <h1 className="font-semibold pt-10 text-4xl text-center text-orange-500">Habilidades</h1>
                 </div>
                 
 
