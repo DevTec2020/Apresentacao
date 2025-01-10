@@ -30,9 +30,9 @@ export function Habilidades() {
 
                 <div className="flex flex-wrap justify-center mt-20 gap-20 text-slate-400 px-6 sm:px-20">
                 
-                    <div className="p-5 flex flex-col flex-grow items-center  border border-gray-700 rounded-lg shadow-lg md:w-2/5">
+                    <div className="p-5 flex flex-col flex-grow items-center  border border-gray-700 rounded-lg shadow-lg md:w-2/5 lg:p-10">
                         <h2 className="text-2xl font-semibold text-center mb-4">Frontend</h2>
-                        <div className="flex flex-wrap justify-center gap-3 mt-5">
+                        <div className="flex flex-wrap justify-center gap-3 mt-5 md:max-w-2xl">
                             <Skill src={ICOreact} alt="React ico" txt="React" />
                             <Skill src={ICOhtml} alt="HTML ico" txt="HTML" />
                             <Skill src={ICOcss} alt="CSS ico" txt="CSS" />
