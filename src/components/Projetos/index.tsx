@@ -24,14 +24,14 @@ export function Projetos() {
                     <img className="rounded-t-lg" src={siteNote} alt="Projeto SiteNote" />
 
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SiteNote</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">SiteNote</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">HTML</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">CSS</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Javascript</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">CSS</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Javascript</span>
                         </div>
   
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <p className="mb-3 font-normal text-gray-400">
                             Aplicação web projetada para ajudar a criar, editar, deletar notas e listas de tarefas de forma eficiente e intuitiva. 
                         </p>
                         <div className="flex  gap-2">
@@ -55,14 +55,14 @@ export function Projetos() {
                         <img className="rounded-t-lg" src={PetValley} alt="Projeto SiteNote" />
                     </a>
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PetValley</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">PetValley</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">HTML</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">CSS</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Bulma</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">CSS</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Bulma</span>
                         </div>
   
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <p className="mb-3 font-normal text-gray-400">
                             Site para clínica veterinária, com foco em usabilidade e design responsivo. 
                         </p>
                         <div className="flex  gap-2">
@@ -86,14 +86,14 @@ export function Projetos() {
                         <img className="rounded-t-lg" src={DevBurguer} alt="Projeto SiteNote" />
                     </a>
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">DevBurguer</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">DevBurguer</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">HTML</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Tailwind</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">JavaScript</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Tailwind</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">JavaScript</span>
                         </div>
   
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <p className="mb-3 font-normal text-gray-400">
                             Cardápio Online de hamburgueria, com uma interface moderna e funcional. Permitindo que os pedidos sejam encaminhados diretamente para o WhatsApp. 
                         </p>
                         <div className="flex  gap-2">
@@ -118,14 +118,14 @@ export function Projetos() {
                         <img className="rounded-t-lg" src={CadMetas} alt="Projeto SiteNote" />
                     </a>
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CadMetas</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">CadMetas</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">JavaScript</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">NodeJs</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Json</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">JavaScript</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">NodeJs</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Json</span>
                         </div>
   
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <p className="mb-3 font-normal text-gray-400">
                             Site para clínica veterinária, com foco em usabilidade e design responsivo. 
                         </p>
                         <div className="flex  gap-2">
@@ -144,14 +144,14 @@ export function Projetos() {
                         <img className="rounded-t-lg" src={FormNasa} alt="Projeto SiteNote" />
                     </a>
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">FormNasa</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">FormNasa</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">HTML</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">SASS</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Bootstrap</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">HTML</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">SASS</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Bootstrap</span>
                         </div>
   
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <p className="mb-3 font-normal text-gray-400">
                             Formulário minimalista, estilizado com o Bootstrap, focado na simplicidade e eficiência.. 
                         </p>
                         <div className="flex  gap-2">
@@ -176,14 +176,14 @@ export function Projetos() {
                         <img className="rounded-t-lg" src={JogoForca} alt="Projeto SiteNote" />
                     </a>
                     <div className="p-5">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jogo da Forca</h5>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Jogo da Forca</h5>
                         <div className="mb-4">
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">React</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">CSS</span>
-                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Typescript</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">React</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">CSS</span>
+                            <span className="bg-gray-700 text-gray-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-gray-500">Typescript</span>
                         </div>
   
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <p className="mb-3 font-normal text-gray-400">
                             Jogo da Forca com palavras de programação. 
                         </p>
                         <div className="flex  gap-2">

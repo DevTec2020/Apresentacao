@@ -30,7 +30,7 @@ export function Habilidades() {
 
                 <div className="flex flex-wrap justify-center mt-20 gap-20 text-slate-400">
                 
-                    <div className=" w-1/4 border border-orange-600 rounded-lg p-5 flex flex-col items-center shadow-lg shadow-orange-600 bg-gray-900">
+                    <div className=" w-1/4 p-5 flex flex-col items-center  border border-gray-700 rounded-lg shadow-lg">
                         <h2 className="text-2xl font-semibold text-center mb-4">Frontend</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOreact} alt="React ico" txt="React" />
@@ -45,7 +45,7 @@ export function Habilidades() {
                         </div>
                     </div>
 
-                    <div className=" w-1/4 border border-orange-600 rounded-lg p-5 flex flex-col items-center shadow-lg shadow-orange-600 bg-gray-900">
+                    <div className=" w-1/4 p-5 flex flex-col items-center  border border-gray-700 rounded-lg shadow-lg">
                         <h2 className="text-2xl font-semibold text-center mb-4">Backend</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOnode} alt="Node ico" txt="Node" />
@@ -54,7 +54,7 @@ export function Habilidades() {
                     </div>
 
                     
-                    <div className=" w-2/4 border border-orange-600 rounded-lg p-5 flex flex-col items-center shadow-lg shadow-orange-600 bg-gray-900">
+                    <div className=" w-2/4 border border-gray-700 rounded-lg p-5 flex flex-col items-center shadow-lg">
                         <h2 className="text-2xl font-semibold text-center mb-4">Outros</h2>
                         <div className="flex flex-wrap justify-center gap-3 mt-5">
                             <Skill src={ICOBabel} alt="React ico" txt="Babel" />
